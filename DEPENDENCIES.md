@@ -3,7 +3,7 @@
 Install all dependencies with:
 
 ```bash
-brew install node fzf ripgrep tree-sitter solargraph
+brew install node fzf ripgrep tree-sitter tree-sitter-cli solargraph
 brew install --cask font-fira-code-nerd-font
 ```
 
@@ -15,5 +15,6 @@ brew install --cask font-fira-code-nerd-font
 | `fzf` | Required by fzf-lua (file/text search) |
 | `ripgrep` | Required by fzf-lua for text search |
 | `tree-sitter` | Required by Treesitter (syntax highlighting) |
+| `tree-sitter-cli` | Required by Tressitter (syntax highlighting) |
 | `solargraph` | Ruby LSP via coc-solargraph |
 | `font-fira-code-nerd-font` | Nerd Font for file explorer icons (cask) |
