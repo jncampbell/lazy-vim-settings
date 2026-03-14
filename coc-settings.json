@@ -1,0 +1,32 @@
+{
+  "prettier.enable": true,
+  "prettier.formatOnSave": true,
+  "[javascript]": {
+    "coc.preferences.formatOnSaveFiletypes": ["javascript"]
+  },
+  "[javascriptreact]": {
+    "coc.preferences.formatOnSaveFiletypes": ["javascriptreact"]
+  },
+  "[typescript]": {
+    "coc.preferences.formatOnSaveFiletypes": ["typescript"]
+  },
+  "[typescriptreact]": {
+    "coc.preferences.formatOnSaveFiletypes": ["typescriptreact"]
+  },
+  "[scss]": {
+    "coc.preferences.formatOnSaveFiletypes": ["scss"]
+  },
+  "[css]": {
+    "coc.preferences.formatOnSaveFiletypes": ["css"]
+  },
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "scss",
+    "css",
+    "ruby"
+  ],
+  "solargraph.formatting": true
+}
